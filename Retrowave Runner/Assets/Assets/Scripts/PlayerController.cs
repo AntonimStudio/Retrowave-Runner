@@ -1,6 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;  
+/// <summary>
+/// Потом убрать  то, что сверху
+/// </summary>
 
 public class PlayerController : MonoBehaviour
 {
@@ -8,12 +12,12 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float speed;
     [SerializeField] private float lineDistance;
 
-    void Start()
+    void Update()
     {
-        
+        SwipeMove();
     }
 
-    void Update()
+    private void SwipeMove()
     {
         if (SwipeController.swipeRight && lineToMove < 2) { lineToMove++; }
 
@@ -26,5 +30,15 @@ public class PlayerController : MonoBehaviour
             targetPosition += Vector3.right * lineDistance;
 
         transform.position = Vector3.Lerp(transform.position, targetPosition, Time.deltaTime * speed);
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        Debug.Log("AAAAAAAAAAAAA");
+        if (collision.gameObject.GetComponent<Enemy>())
+        {
+            Destroy(gameObject);
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        }
     }
 }

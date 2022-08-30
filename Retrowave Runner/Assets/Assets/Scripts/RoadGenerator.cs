@@ -5,11 +5,11 @@ using UnityEngine.UI;
 
 public class RoadGenerator : MonoBehaviour
 {
-    public GameObject RoadPrefab;
+    [SerializeField] private GameObject RoadPrefab;
     private List<GameObject> roads = new List<GameObject>();
-    public float maxSpeed = 10;
+    [SerializeField] private float maxSpeed = 10;
     private float speed = 0;
-    public int maxRoadCount = 5;
+    [SerializeField] private int maxRoadCount = 5;
 
     void Start()
     {

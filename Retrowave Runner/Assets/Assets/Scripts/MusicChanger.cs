@@ -9,7 +9,6 @@ public class MusicChanger : MonoBehaviour
     [SerializeField] private TextMeshProUGUI text;
     [SerializeField] private GameObject Plate;
     private AudioSource mixer;
-    private bool isPlaying = true;
 
     private void Start()
     {
