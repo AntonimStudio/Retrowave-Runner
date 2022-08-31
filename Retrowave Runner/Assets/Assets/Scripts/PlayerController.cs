@@ -34,7 +34,6 @@ public class PlayerController : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        Debug.Log("AAAAAAAAAAAAA");
         if (collision.gameObject.GetComponent<Enemy>())
         {
             Destroy(gameObject);

@@ -1,0 +1,856 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.6f1 (7da38d85baf6) revision 8233869'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit CoreSingleLanguage' Language: 'ru' Physical Memory: 16191 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.6f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+E:/Retrowave Runner/Github Folder/Retrowave Runner
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+54590
+Successfully changed project path to: E:/Retrowave Runner/Github Folder/Retrowave Runner
+E:/Retrowave Runner/Github Folder/Retrowave Runner
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 151.22 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.6f1 (7da38d85baf6)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/Retrowave Runner/Github Folder/Retrowave Runner/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1660 Ti (ID=0x2191)
+    Vendor:   NVIDIA
+    VRAM:     5991 MB
+    Driver:   30.0.15.1278
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56192
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.017431 seconds.
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 130.19 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.087 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1088ms)
+		BeginReloadAssembly (134ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (751ms)
+			LoadAssemblies (127ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (170ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (447ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (106ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (130ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (142ms)
+				ProcessInitializeOnLoadMethodAttributes (67ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.009592 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Retrowave Runner\Github Folder\Retrowave Runner\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Retrowave Runner\Github Folder\Retrowave Runner\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.92 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.852 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1854ms)
+		BeginReloadAssembly (283ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (131ms)
+		EndReloadAssembly (1386ms)
+			LoadAssemblies (140ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (416ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (82ms)
+			SetupLoadedEditorAssemblies (695ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (41ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (140ms)
+				ProcessInitializeOnLoadAttributes (449ms)
+				ProcessInitializeOnLoadMethodAttributes (47ms)
+				AfterProcessingInitializeOnLoad (16ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
+Refreshing native plugins compatible for Editor in 0.85 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3833 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (162.0 KB). Loaded Objects now: 4296.
+Memory consumption went from 138.5 MB to 138.3 MB.
+Total: 9.020100 ms (FindLiveObjects: 0.575400 ms CreateObjectMapping: 1.936900 ms MarkObjects: 6.287600 ms  DeleteObjects: 0.218700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 505152.809414 seconds.
+  path: Assets/Assets/Music/1985 - Bo Burnham.mp3
+  artifactKey: Guid(11fb276ebc25b6a4e96d7a17d85b040f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Music/1985 - Bo Burnham.mp3 using Guid(11fb276ebc25b6a4e96d7a17d85b040f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcfd4c8aab16ac87c8eb51b84f7ad983') in 0.155577 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 76.691982 seconds.
+  path: Assets/Assets/Music/Test Pilot - Space Sailors.mp3
+  artifactKey: Guid(acec69f50fa836d49bf24516c2585822) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Music/Test Pilot - Space Sailors.mp3 using Guid(acec69f50fa836d49bf24516c2585822) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fa144fff697a8565970c0ceee70b6f8') in 0.045775 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 102.513191 seconds.
+  path: Assets/Assets/Music/Shine - Alison.mp3
+  artifactKey: Guid(2a9acd1c6ac1f104c8847896bf0521c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Music/Shine - Alison.mp3 using Guid(2a9acd1c6ac1f104c8847896bf0521c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '994d74d9f3b1cbb7a0caf5678fa30a16') in 0.023776 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 86.501977 seconds.
+  path: Assets/Assets/Music/Amethyst Plane - Plazmic.mp3
+  artifactKey: Guid(3c0ca14e88e206e4797c46bdbb3dc7ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Music/Amethyst Plane - Plazmic.mp3 using Guid(3c0ca14e88e206e4797c46bdbb3dc7ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e42e4013c640d188c18bff8336861dd') in 0.035576 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 99.552850 seconds.
+  path: Assets/Assets/Music/Passenger - Alison.mp3
+  artifactKey: Guid(7b2369606b5bbfa41ac02f2488921f74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Music/Passenger - Alison.mp3 using Guid(7b2369606b5bbfa41ac02f2488921f74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6c8066786c36d9ae76735887d44b710') in 0.227430 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.599929 seconds.
+  path: Assets/Assets/Music/Passenger - Alison.mp3
+  artifactKey: Guid(7b2369606b5bbfa41ac02f2488921f74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Music/Passenger - Alison.mp3 using Guid(7b2369606b5bbfa41ac02f2488921f74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a85a3ed3b59c799dd4ffd0c8b759095d') in 0.596750 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 98.709661 seconds.
+  path: Assets/Assets/Music/Paradise - Voyage.mp3
+  artifactKey: Guid(0d91fc21766c81b4096c4075e3906209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Music/Paradise - Voyage.mp3 using Guid(0d91fc21766c81b4096c4075e3906209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eed7ff71036e906eaae5348732099f1d') in 0.026167 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 102.491687 seconds.
+  path: Assets/Assets/Music/Allude - Voyage.mp3
+  artifactKey: Guid(bf6074c13df5d6242ab6af04192215e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Music/Allude - Voyage.mp3 using Guid(bf6074c13df5d6242ab6af04192215e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8740b80914c7b55250e7082224270499') in 0.024290 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 41.261056 seconds.
+  path: Assets/Assets/Music/Allude - Voyage.mp3
+  artifactKey: Guid(bf6074c13df5d6242ab6af04192215e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Music/Allude - Voyage.mp3 using Guid(bf6074c13df5d6242ab6af04192215e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bc0d99d19e9ce5410ccca233ab9b2e8') in 0.020563 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 153.294912 seconds.
+  path: Assets/Assets/Music/Upward - Overcrest.mp3
+  artifactKey: Guid(05406e15c2e352d43b8733e1cdfe545f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Music/Upward - Overcrest.mp3 using Guid(05406e15c2e352d43b8733e1cdfe545f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16fc131c991bb3d9bbd33a808bd5e19a') in 0.021198 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 91.225904 seconds.
+  path: Assets/Assets/Music/Shatter - Krosia.mp3
+  artifactKey: Guid(18485f6a0748494488f4086dfd2bd687) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Music/Shatter - Krosia.mp3 using Guid(18485f6a0748494488f4086dfd2bd687) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f41165754d47e83792a1c2b6345cf6f') in 0.024550 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 86.398695 seconds.
+  path: Assets/Assets/Music/Stars - Gemini Drive.mp3
+  artifactKey: Guid(f13e7d803c410a64fa8a05acd0dfbf74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Music/Stars - Gemini Drive.mp3 using Guid(f13e7d803c410a64fa8a05acd0dfbf74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e57631d37482144f3fb213c4c1078795') in 0.025138 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 87.430857 seconds.
+  path: Assets/Assets/Music/Void - oDDling.mp3
+  artifactKey: Guid(48c80f696b395fa44b8fa0916b3a22d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Music/Void - oDDling.mp3 using Guid(48c80f696b395fa44b8fa0916b3a22d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b006593a62ceae455717c41730235035') in 0.028562 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 85.790084 seconds.
+  path: Assets/Assets/Music/Call me - 90sFlav.mp3
+  artifactKey: Guid(d4ff27f218d2ee64593597ad024996c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Music/Call me - 90sFlav.mp3 using Guid(d4ff27f218d2ee64593597ad024996c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7365bbb7c70a4a0d6b9b6989a4b912fb') in 0.044257 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 303.489731 seconds.
+  path: Assets/Assets/Music/Coast - Hotel Pools.mp3
+  artifactKey: Guid(2ec5e71b2ce3bd84b9efa65399794532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Music/Coast - Hotel Pools.mp3 using Guid(2ec5e71b2ce3bd84b9efa65399794532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c3a819efb0da04b7a9bb87a5f0d6780') in 0.034396 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 102.876059 seconds.
+  path: Assets/Assets/Music/Snowfall - Hotel Pools.mp3
+  artifactKey: Guid(ff785b03c23b9024f942dad1f04c24a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Music/Snowfall - Hotel Pools.mp3 using Guid(ff785b03c23b9024f942dad1f04c24a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25e500ed08c0e87558a473ab7fbab825') in 0.239809 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 96.463073 seconds.
+  path: Assets/Assets/Music/Evolve - Hotel Pools.mp3
+  artifactKey: Guid(03eca9d4fd6ee8d44a38e696e4fce643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Music/Evolve - Hotel Pools.mp3 using Guid(03eca9d4fd6ee8d44a38e696e4fce643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30a7054366bf848ab893a8fdc2c78528') in 0.042051 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 79.414134 seconds.
+  path: Assets/Assets/Music/Hold - Home.mp3
+  artifactKey: Guid(78750f145eb27514d85c6b03d1521186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Music/Hold - Home.mp3 using Guid(78750f145eb27514d85c6b03d1521186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd2933327c0826773767ee4d2833a391') in 0.045234 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 84.812659 seconds.
+  path: Assets/Assets/Music/Before The Night - Home.mp3
+  artifactKey: Guid(62c13c005641d484d828b9108bfece72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Music/Before The Night - Home.mp3 using Guid(62c13c005641d484d828b9108bfece72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c38c9cd0dc4a335b932a1a66dc5b365f') in 0.083448 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 98.760964 seconds.
+  path: Assets/Assets/Music/Hideaway - Hotel Pools.mp3
+  artifactKey: Guid(83059404d95611748b1c57af43d3301a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Music/Hideaway - Hotel Pools.mp3 using Guid(83059404d95611748b1c57af43d3301a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d19c4946ef8a1ba0df501154db7f053') in 0.024980 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 100.330919 seconds.
+  path: Assets/Assets/Music/Allude - Voyage.mp3
+  artifactKey: Guid(bf6074c13df5d6242ab6af04192215e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Music/Allude - Voyage.mp3 using Guid(bf6074c13df5d6242ab6af04192215e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bdff0d72c0e5adcb3e043fa3d0d8acd') in 0.017452 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.100486 seconds.
+  path: Assets/Assets/Music/Amethyst Plane - Plazmic.mp3
+  artifactKey: Guid(3c0ca14e88e206e4797c46bdbb3dc7ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Music/Amethyst Plane - Plazmic.mp3 using Guid(3c0ca14e88e206e4797c46bdbb3dc7ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '550d4aaec8fcaedb6407333b029f9c6b') in 0.030561 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 30.839991 seconds.
+  path: Assets/Assets/Music/Before The Night - Home.mp3
+  artifactKey: Guid(62c13c005641d484d828b9108bfece72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Music/Before The Night - Home.mp3 using Guid(62c13c005641d484d828b9108bfece72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dd951b40312c0ce0d27b114a7e69068') in 0.064589 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.016147 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Retrowave Runner\Github Folder\Retrowave Runner\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Retrowave Runner\Github Folder\Retrowave Runner\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.36 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.054 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2055ms)
+		BeginReloadAssembly (240ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (68ms)
+		EndReloadAssembly (1635ms)
+			LoadAssemblies (156ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (710ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (69ms)
+			SetupLoadedEditorAssemblies (640ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (57ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (117ms)
+				ProcessInitializeOnLoadAttributes (384ms)
+				ProcessInitializeOnLoadMethodAttributes (59ms)
+				AfterProcessingInitializeOnLoad (20ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.23 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3796 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (122.5 KB). Loaded Objects now: 4307.
+Memory consumption went from 139.6 MB to 139.5 MB.
+Total: 5.945200 ms (FindLiveObjects: 0.421000 ms CreateObjectMapping: 0.273000 ms MarkObjects: 4.998400 ms  DeleteObjects: 0.251300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010334 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Retrowave Runner\Github Folder\Retrowave Runner\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Retrowave Runner\Github Folder\Retrowave Runner\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.90 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.673 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1674ms)
+		BeginReloadAssembly (211ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (59ms)
+		EndReloadAssembly (1313ms)
+			LoadAssemblies (139ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (420ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (62ms)
+			SetupLoadedEditorAssemblies (631ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (50ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (113ms)
+				ProcessInitializeOnLoadAttributes (393ms)
+				ProcessInitializeOnLoadMethodAttributes (53ms)
+				AfterProcessingInitializeOnLoad (21ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3796 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (115.0 KB). Loaded Objects now: 4310.
+Memory consumption went from 139.6 MB to 139.5 MB.
+Total: 5.689300 ms (FindLiveObjects: 0.422400 ms CreateObjectMapping: 0.392500 ms MarkObjects: 4.656400 ms  DeleteObjects: 0.216300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009214 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Retrowave Runner\Github Folder\Retrowave Runner\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Retrowave Runner\Github Folder\Retrowave Runner\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.36 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.790 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1791ms)
+		BeginReloadAssembly (208ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (51ms)
+		EndReloadAssembly (1424ms)
+			LoadAssemblies (141ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (406ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (70ms)
+			SetupLoadedEditorAssemblies (638ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (59ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (122ms)
+				ProcessInitializeOnLoadAttributes (380ms)
+				ProcessInitializeOnLoadMethodAttributes (53ms)
+				AfterProcessingInitializeOnLoad (21ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.22 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3796 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (115.0 KB). Loaded Objects now: 4313.
+Memory consumption went from 139.6 MB to 139.5 MB.
+Total: 5.269400 ms (FindLiveObjects: 0.394900 ms CreateObjectMapping: 0.261900 ms MarkObjects: 4.435000 ms  DeleteObjects: 0.176100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013637 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Retrowave Runner\Github Folder\Retrowave Runner\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Retrowave Runner\Github Folder\Retrowave Runner\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.92 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.842 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1843ms)
+		BeginReloadAssembly (227ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (54ms)
+		EndReloadAssembly (1447ms)
+			LoadAssemblies (156ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (466ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (80ms)
+			SetupLoadedEditorAssemblies (687ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (63ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (118ms)
+				ProcessInitializeOnLoadAttributes (434ms)
+				ProcessInitializeOnLoadMethodAttributes (50ms)
+				AfterProcessingInitializeOnLoad (20ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.13 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3796 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (122.5 KB). Loaded Objects now: 4316.
+Memory consumption went from 139.6 MB to 139.5 MB.
+Total: 7.271300 ms (FindLiveObjects: 0.453400 ms CreateObjectMapping: 0.464800 ms MarkObjects: 6.161300 ms  DeleteObjects: 0.190300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009184 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Retrowave Runner\Github Folder\Retrowave Runner\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Retrowave Runner\Github Folder\Retrowave Runner\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.13 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.707 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1709ms)
+		BeginReloadAssembly (246ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (62ms)
+		EndReloadAssembly (1301ms)
+			LoadAssemblies (167ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (402ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (69ms)
+			SetupLoadedEditorAssemblies (619ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (54ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (112ms)
+				ProcessInitializeOnLoadAttributes (376ms)
+				ProcessInitializeOnLoadMethodAttributes (53ms)
+				AfterProcessingInitializeOnLoad (22ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.41 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3796 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (115.1 KB). Loaded Objects now: 4319.
+Memory consumption went from 139.6 MB to 139.5 MB.
+Total: 5.174000 ms (FindLiveObjects: 0.439900 ms CreateObjectMapping: 0.595100 ms MarkObjects: 3.950600 ms  DeleteObjects: 0.186900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010491 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Retrowave Runner\Github Folder\Retrowave Runner\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Retrowave Runner\Github Folder\Retrowave Runner\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.91 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.688 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1689ms)
+		BeginReloadAssembly (246ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (66ms)
+		EndReloadAssembly (1278ms)
+			LoadAssemblies (153ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (414ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (62ms)
+			SetupLoadedEditorAssemblies (601ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (56ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (100ms)
+				ProcessInitializeOnLoadAttributes (373ms)
+				ProcessInitializeOnLoadMethodAttributes (51ms)
+				AfterProcessingInitializeOnLoad (20ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.24 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3796 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (115.0 KB). Loaded Objects now: 4322.
+Memory consumption went from 139.6 MB to 139.5 MB.
+Total: 6.080400 ms (FindLiveObjects: 0.422200 ms CreateObjectMapping: 0.393700 ms MarkObjects: 5.079900 ms  DeleteObjects: 0.183500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 338.189106 seconds.
+  path: Assets/Assets/Music/Call me - 90sFlav.mp3
+  artifactKey: Guid(d4ff27f218d2ee64593597ad024996c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Music/Call me - 90sFlav.mp3 using Guid(d4ff27f218d2ee64593597ad024996c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07f70b1bc0582befb8c6e353605100e2') in 0.079157 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.575192 seconds.
+  path: Assets/Assets/Music/Coast - Hotel Pools.mp3
+  artifactKey: Guid(2ec5e71b2ce3bd84b9efa65399794532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Music/Coast - Hotel Pools.mp3 using Guid(2ec5e71b2ce3bd84b9efa65399794532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2db680a368df45e94354e6024415a5b') in 0.032705 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.030915 seconds.
+  path: Assets/Assets/Music/Evolve - Hotel Pools.mp3
+  artifactKey: Guid(03eca9d4fd6ee8d44a38e696e4fce643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Music/Evolve - Hotel Pools.mp3 using Guid(03eca9d4fd6ee8d44a38e696e4fce643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47a0a15a45477de4067efb91c255eab3') in 0.068644 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.745908 seconds.
+  path: Assets/Assets/Music/Hideaway - Hotel Pools.mp3
+  artifactKey: Guid(83059404d95611748b1c57af43d3301a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Music/Hideaway - Hotel Pools.mp3 using Guid(83059404d95611748b1c57af43d3301a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94c44c2bd527c16140c8c831f3718f15') in 0.049816 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.203587 seconds.
+  path: Assets/Assets/Music/Hold - Home.mp3
+  artifactKey: Guid(78750f145eb27514d85c6b03d1521186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Music/Hold - Home.mp3 using Guid(78750f145eb27514d85c6b03d1521186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd19fc2e183c3ef694f892c08d7e10010') in 0.060290 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 24.377386 seconds.
+  path: Assets/Assets/Music/Paradise - Voyage.mp3
+  artifactKey: Guid(0d91fc21766c81b4096c4075e3906209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Music/Paradise - Voyage.mp3 using Guid(0d91fc21766c81b4096c4075e3906209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '787ed1b877752e83142883d4c673493b') in 0.082381 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 40.431427 seconds.
+  path: Assets/Assets/Music/Shatter - Krosia.mp3
+  artifactKey: Guid(18485f6a0748494488f4086dfd2bd687) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Music/Shatter - Krosia.mp3 using Guid(18485f6a0748494488f4086dfd2bd687) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dacebdefc639dcddef36943e7e60f678') in 0.052971 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.074020 seconds.
+  path: Assets/Assets/Music/Shine - Alison.mp3
+  artifactKey: Guid(2a9acd1c6ac1f104c8847896bf0521c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Music/Shine - Alison.mp3 using Guid(2a9acd1c6ac1f104c8847896bf0521c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a118203fcfc236234d4c45e2ae84a4b1') in 0.016568 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.069679 seconds.
+  path: Assets/Assets/Music/Snowfall - Hotel Pools.mp3
+  artifactKey: Guid(ff785b03c23b9024f942dad1f04c24a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Music/Snowfall - Hotel Pools.mp3 using Guid(ff785b03c23b9024f942dad1f04c24a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63ef5a520cb9e95f6b1157ebffbf73a3') in 0.095551 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 48.078936 seconds.
+  path: Assets/Assets/Music/Stars - Gemini Drive.mp3
+  artifactKey: Guid(f13e7d803c410a64fa8a05acd0dfbf74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Music/Stars - Gemini Drive.mp3 using Guid(f13e7d803c410a64fa8a05acd0dfbf74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaa1bcc74514996fd342dc6693d028ae') in 0.048783 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 24.964451 seconds.
+  path: Assets/Assets/Music/Test Pilot - Space Sailors.mp3
+  artifactKey: Guid(acec69f50fa836d49bf24516c2585822) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Music/Test Pilot - Space Sailors.mp3 using Guid(acec69f50fa836d49bf24516c2585822) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1551a3ae6af485e6b43d77eff643df3') in 0.307573 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.185818 seconds.
+  path: Assets/Assets/Music/Upward - Overcrest.mp3
+  artifactKey: Guid(05406e15c2e352d43b8733e1cdfe545f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Music/Upward - Overcrest.mp3 using Guid(05406e15c2e352d43b8733e1cdfe545f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e04511bca53be13f8cdd88c318456628') in 0.041819 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.226775 seconds.
+  path: Assets/Assets/Music/Void - oDDling.mp3
+  artifactKey: Guid(48c80f696b395fa44b8fa0916b3a22d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Music/Void - oDDling.mp3 using Guid(48c80f696b395fa44b8fa0916b3a22d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0b8457bd9d26cc1a375c83fd7854638') in 0.065078 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010421 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Retrowave Runner\Github Folder\Retrowave Runner\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Retrowave Runner\Github Folder\Retrowave Runner\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.605 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1606ms)
+		BeginReloadAssembly (211ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (58ms)
+		EndReloadAssembly (1238ms)
+			LoadAssemblies (139ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (417ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (73ms)
+			SetupLoadedEditorAssemblies (553ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (48ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (99ms)
+				ProcessInitializeOnLoadAttributes (329ms)
+				ProcessInitializeOnLoadMethodAttributes (51ms)
+				AfterProcessingInitializeOnLoad (23ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.66 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3796 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (122.6 KB). Loaded Objects now: 4325.
+Memory consumption went from 139.7 MB to 139.5 MB.
+Total: 6.395300 ms (FindLiveObjects: 0.472200 ms CreateObjectMapping: 0.199400 ms MarkObjects: 5.507800 ms  DeleteObjects: 0.214400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009104 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Retrowave Runner\Github Folder\Retrowave Runner\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Retrowave Runner\Github Folder\Retrowave Runner\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.11 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.620 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1622ms)
+		BeginReloadAssembly (208ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (54ms)
+		EndReloadAssembly (1257ms)
+			LoadAssemblies (136ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (402ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (63ms)
+			SetupLoadedEditorAssemblies (602ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (51ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (118ms)
+				ProcessInitializeOnLoadAttributes (360ms)
+				ProcessInitializeOnLoadMethodAttributes (52ms)
+				AfterProcessingInitializeOnLoad (19ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3796 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (129.3 KB). Loaded Objects now: 4328.
+Memory consumption went from 139.7 MB to 139.6 MB.
+Total: 5.733300 ms (FindLiveObjects: 0.425200 ms CreateObjectMapping: 0.274900 ms MarkObjects: 4.845400 ms  DeleteObjects: 0.186400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

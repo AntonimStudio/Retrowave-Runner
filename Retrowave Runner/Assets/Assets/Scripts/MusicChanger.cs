@@ -8,6 +8,8 @@ public class MusicChanger : MonoBehaviour
     [SerializeField] private AudioClip[] music;
     [SerializeField] private TextMeshProUGUI text;
     [SerializeField] private GameObject Plate;
+    [SerializeField] private int previousTrack = 2;
+    [SerializeField] private int randomNumber = -1;
     private AudioSource mixer;
 
     private void Start()
@@ -31,7 +33,12 @@ public class MusicChanger : MonoBehaviour
     {
         mixer.Play();
         yield return new WaitForSeconds(mixer.clip.length);
-        mixer.clip = music[Random.Range(0, music.Length)]; ;
+        while (randomNumber != previousTrack) 
+        { 
+            randomNumber = Random.Range(0, music.Length);
+        }
+        mixer.clip = music[randomNumber];
+        previousTrack = randomNumber;
         mixer.Play();
         ShowName();
     }
