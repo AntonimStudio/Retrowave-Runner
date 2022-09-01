@@ -190,8 +190,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294950022
-  m_fontColor: {r: 0.5235849, g: 0.7373607, b: 1, a: 1}
+    rgba: 4294025532
+  m_fontColor: {r: 0.23584905, g: 0.6315602, b: 0.9433962, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -5160,9 +5160,9 @@ MonoBehaviour:
   enemyMassive:
   - {fileID: 726644190817575250, guid: 2aa5022b7d7524f42b76820ca6a6195b, type: 3}
   - {fileID: 5920916246869130589, guid: 5a36637280602614e93f8daffda169fe, type: 3}
-  maxEnemiesCount: 40
+  maxEnemiesCount: 15
   speedCoef: 1
-  rg: {fileID: 1270825172}
+  rg: {fileID: 1270825173}
 --- !u!4 &283188235
 Transform:
   m_ObjectHideFlags: 0
@@ -6037,8 +6037,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6184e4906ee542c43bdc0f8c447644a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 6
+  speed: 0
   lineDistance: 2.9
+  rg: {fileID: 1270825173}
 --- !u!4 &1150970598 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3833095599480037346, guid: 4aa5450ceaf2be547ad997e7d501f5ac, type: 3}
@@ -6282,7 +6283,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1648428453}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -11355,8 +11356,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294950022
-  m_fontColor: {r: 0.5235849, g: 0.7373607, b: 1, a: 1}
+    rgba: 4293032375
+  m_fontColor: {r: 0.7173883, g: 0.47267708, b: 0.8867924, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:

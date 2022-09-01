@@ -9,12 +9,15 @@ using UnityEngine.SceneManagement;
 public class PlayerController : MonoBehaviour
 {
     private int lineToMove = 1;
-    [SerializeField] private float speed;
+    public float speed;
     [SerializeField] private float lineDistance;
+    [SerializeField] private RoadGenerator rg;
 
     void Update()
     {
         SwipeMove();
+        if (rg.speed / 3 >= 10) speed = 10;
+        else speed = rg.speed / 3;
     }
 
     private void SwipeMove()

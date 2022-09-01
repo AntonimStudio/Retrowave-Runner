@@ -16,14 +16,15 @@ public class RoadGenerator : MonoBehaviour
     private float time = 0;
     public float speed = 0;
     private int record = 0;
-    [SerializeField] private int maxRoadCount = 5;
+    [SerializeField] private int maxRoadCount;
 
     void Start()
     {
         ResetLevel();
         StartLevel();
         StartCoroutine(StartTimer());
-        //record = PlayerPrefs.GetInt("Record");
+        record = PlayerPrefs.GetInt("record");
+
     }
 
     void FixedUpdate()
@@ -42,17 +43,17 @@ public class RoadGenerator : MonoBehaviour
             CreateNextRoad();
         }
 
-        if (speed < maxSpeed / 3) { speed = speed + (time * 0.00005f); }
-        else if (speed > maxSpeed / 3) { speed = speed + (time * 0.000001f); }
-        else if (speed > maxSpeed / 2) { speed = speed + (time * 0.0000001f); }
+        if (speed < maxSpeed / 3) { speed = speed + (time * 0.0004f); }
+        else if (speed > maxSpeed / 3) { speed = speed + (time * 0.00005f); }
+        else if (speed > maxSpeed / 2) { speed = speed + (time * 0.000005f); }
 
         if (distance > record)
         {
             record = (int)Mathf.Round(distance);
-            recordText.text = record.ToString();
-            PlayerPrefs.SetInt("Record", record);
+            PlayerPrefs.SetInt("record", record);
             PlayerPrefs.Save();
         }
+        recordText.text = record.ToString();
     }
 
     private IEnumerator StartTimer()

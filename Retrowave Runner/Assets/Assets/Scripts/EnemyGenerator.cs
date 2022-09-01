@@ -8,7 +8,7 @@ public class EnemyGenerator : MonoBehaviour
     private List<GameObject> enemies = new List<GameObject>();
     [SerializeField] private int maxEnemiesCount = 3;
     [SerializeField] private float speedCoef = 0;
-    [SerializeField] private GameObject rg;
+    [SerializeField] private RoadGenerator rg;
 
     void Start()
     {
@@ -22,7 +22,7 @@ public class EnemyGenerator : MonoBehaviour
 
         foreach (GameObject enemy in enemies)
         {
-            enemy.transform.position -= new Vector3(0, 0, rg.GetComponent<RoadGenerator>().speed * Time.deltaTime);
+            enemy.transform.position -= new Vector3(0, 0, rg.speed * Time.deltaTime * speedCoef);
         }
 
         if (enemies[0].transform.position.z < -15)
@@ -58,7 +58,7 @@ public class EnemyGenerator : MonoBehaviour
         if (enemies.Count > 0) 
         {
             float deviation = 2.9f - 2.9f * Random.Range(0, 3);
-            pos = new Vector3(0, enemies[enemies.Count - 1].transform.position.y, enemies[enemies.Count - 1].transform.position.z) + new Vector3(deviation, 0, 20); 
+            pos = new Vector3(0, enemies[enemies.Count - 1].transform.position.y, enemies[enemies.Count - 1].transform.position.z) + new Vector3(deviation, 0, Random.Range(15, 35)); 
         }
         GameObject go = Instantiate(enemyMassive[Random.Range(0, 2)], pos, Quaternion.identity);
         go.transform.SetParent(transform);
