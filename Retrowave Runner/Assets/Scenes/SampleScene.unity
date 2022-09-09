@@ -5158,8 +5158,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyMassive:
-  - {fileID: 726644190817575250, guid: 2aa5022b7d7524f42b76820ca6a6195b, type: 3}
   - {fileID: 5920916246869130589, guid: 5a36637280602614e93f8daffda169fe, type: 3}
+  - {fileID: 726644190817575250, guid: 2aa5022b7d7524f42b76820ca6a6195b, type: 3}
   maxEnemiesCount: 15
   speedCoef: 1
   rg: {fileID: 1270825173}
