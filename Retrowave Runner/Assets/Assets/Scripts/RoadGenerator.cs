@@ -12,6 +12,7 @@ public class RoadGenerator : MonoBehaviour
     [SerializeField] private TextMeshProUGUI recordText;
     [SerializeField] private float minSpeed = 10;
     [SerializeField] private float maxSpeed = 100;
+    [SerializeField] EnemyGenerator EnemyGenerator;
     private float distance = 0;
     private float time = 0;
     public float speed = 0;
@@ -43,9 +44,26 @@ public class RoadGenerator : MonoBehaviour
             CreateNextRoad();
         }
 
-        if (speed < maxSpeed / 3) { speed = speed + (time * 0.0004f); }
-        else if (speed > maxSpeed / 3) { speed = speed + (time * 0.00005f); }
-        else if (speed > maxSpeed / 2) { speed = speed + (time * 0.000005f); }
+        if (speed < maxSpeed / 3) 
+        { 
+            speed = speed + (time * 0.0004f);
+            EnemyGenerator.FullProbabilityList(14);
+        }
+        else if (speed > maxSpeed / 3) 
+        { 
+            speed = speed + (time * 0.00005f);
+            EnemyGenerator.FullProbabilityList(17);
+        }
+        else if (speed > maxSpeed / 2) 
+        { 
+            speed = speed + (time * 0.000005f);
+            EnemyGenerator.FullProbabilityList(20);
+        }
+        else if (speed > maxSpeed / 1.5)
+        {
+            speed = speed + (time * 0.000001f);
+            EnemyGenerator.FullProbabilityList(30);
+        }
 
         if (distance > record)
         {
